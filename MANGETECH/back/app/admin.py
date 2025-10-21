@@ -11,7 +11,7 @@ class AdminCustomUser(UserAdmin):
         ('Permissions', {'fields': ('is_active', 'is_staff', 
                                     'is_superuser', 'groups', 
                                     'user_permissions',)}),
-        ('User data', {'fields': ('nif', 'phone','creation_date',)}),
+        ('User data', {'fields': ('nif', 'phone',)}),
     )
     filter_horizontal = ('groups', 'user_permissions',)
     add_fieldsets = (

@@ -16,7 +16,4 @@ class Equipment(models.Model):
 
     def __str__(self):
         return self.name
-# description
-# category_FK
-# environment_FK
 

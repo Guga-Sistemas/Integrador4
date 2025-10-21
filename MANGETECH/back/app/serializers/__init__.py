@@ -5,9 +5,11 @@ from .task import *
 from .task_status import *
 from .custom_user import *
 from .notification import *
-
+from .custom_serializer import *
 __all__ = [
     'CategorySerializer', 'EnvironmentSerializer', 'EquipmentSerializer', 
-    'TaskSerializer', 'TaskStatusSerializer', 'TaskStatusImageSerializer', 
-    'CustomUserSerializer', 'NotificationSerializer'
+    'TaskReadSerializer',  'TaskWriteSerializer', 'TaskStatusSerializer', 
+    'TaskStatusImageSerializer', 
+    'CustomUserSerializer', 'NotificationSerializer',
+    'ReadWriteSerializer'
 ]
